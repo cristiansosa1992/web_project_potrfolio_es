@@ -31,6 +31,7 @@
 .header__link {
   position: relative;
   display: inline-block;
+  width: fit-content; /* clave */
 
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -45,12 +46,11 @@
 .header__link::after {
   content: "";
   position: absolute;
-
   left: 0;
-  bottom: -0.3125rem; /* 5px */
+  bottom: -5px;
 
   width: 100%;
-  height: 0.1875rem;
+  height: 3px;
 
   background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
 }

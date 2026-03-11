@@ -24,3 +24,15 @@ body {
     ),
     #111111;
 }
+
+@media screen and (max-width: 1023px) {
+  body {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+}

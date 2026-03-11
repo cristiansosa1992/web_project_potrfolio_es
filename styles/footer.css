@@ -26,11 +26,27 @@
   margin-bottom: 100px;
 }
 
-.footer {
-  background: radial-gradient(
-    circle at center,
-    #3a3f8f 0%,
-    #1c1f3a 40%,
-    #0a0a0a 80%
-  );
+.footer__email:hover {
+  opacity: 50%;
+}
+
+.footer__social-item:hover {
+  opacity: 50%;
+}
+
+@media (max-width: 1023px) {
+  .header__photo {
+    width: 50%;
+  }
+  .footer__title {
+    font-size: 40px;
+  }
+  .footer__email {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__title {
+    font-size: 28px;
+  }
 }
