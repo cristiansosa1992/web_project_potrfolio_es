@@ -2,7 +2,9 @@
 @import url("./mainstyle.css");
 @import url("./fuentesstyles.css");
 @import url("./footer.css");
-
+* {
+  box-sizing: border-box;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;

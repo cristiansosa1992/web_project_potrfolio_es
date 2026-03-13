@@ -93,7 +93,6 @@
   margin: 0 auto;
   min-width: 320px;
   max-width: 1440px;
-  width: 100vw;
 }
 .project-card__link:hover {
   opacity: 50%;
